@@ -37,7 +37,7 @@ const HomeScreen: React.FC = () => {
    */
   const fetchWordOfTheDay = async () => {
     try {
-      const apiUrl = 'https://wodabk-5ekpn5had-sameer-sumans-projects-4cb0b5be.vercel.app/api/word-of-the-day'; 
+      const apiUrl = 'https://wodabk.vercel.app/api/word-of-the-day'; 
       const response = await fetch(apiUrl);
       
       if (!response.ok) {
